@@ -1,0 +1,15 @@
+//transformando os dados recebidos em um json
+const weatherData = JSON.parse(data)
+
+//caminho inverso
+/*const object = {
+    name : "Claro",
+    favFood : "sushi"
+    }*/
+
+
+/*printando o json inverso
+console.log(JSON.stringify(object));*/
+
+//mandando o index.html pro browser
+res.sendFile(__dirname + "/index.html")
